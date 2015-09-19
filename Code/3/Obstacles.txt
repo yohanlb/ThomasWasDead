@@ -1,0 +1,68 @@
+Les caractéristiquiques des obstacles sont à écrire entre un signe égal et un pint virgule.
+Il faut suivre l'orde de la fonction :
+	Obstacle * createObstacle(int id, int type, int x, int y, int width, int height);
+Ne pas oublier de vérifier la variable : NB_OBSTACLES
+
+/int id, int type, int texture, float x, float y, float z, float xFin, float yFin, int width, int height/
+
+TYPE
+0 :objet traversable, 1: obstacle, 2 : personnage, 3 : objectif, 4 : ennemis , 5:portes
+
+id type tex x y z width height xFin* yFin*
+
+*attribut à ne rajouter que pour les obstacles de type 6 qui se déplacent en continue
+
+
+Blocs noirs de gauches
+= 11 1  9  -500  -60  +0  +280  +90  -500 +0;
+= 12 1  9  -200  +80  +0  +200  +10;
+= 13 1  9  -500 +210  +0  +480  +20;
+= 14 1  9   +40 +150  +0   +50  +10;
+= 39 1  9   -30 +210  +0   +30  +10;
+= 15 1  9    +0  +80  +0   +10  +50;
+= 16 1  9  -150 +270  +0   +50  +10;
+= 17 1  9  -350 +270  +0   +50  +10;
+
+
+Blocs alignés pour aller vers l'objectif du perso d'id 2
+= 18 1  9 -350 +340   +0   +20  +10;
+= 19 1  9 -300 +340   +0   +20  +10;
+= 20 1  9 -250 +340   +0   +20  +10;
+= 21 1  9 -200 +340   +0   +20  +10;
+= 22 1  9 -150 +340   +0   +20  +10;
+= 23 1  9 -100 +340   +0   +20  +10;
+= 24 1  9  -50 +340   +0   +20  +10;
+
+
+Ennemis qui bougent
+= 25 4 13 -300 +240   +5   +30  +20  -200 +240;
+= 26 4 13 -250 +240   -5   +30  +20  -150 +240;
+= 27 4 13 -200 +240   +5   +30  +20  -100 +240;
+= 28 4 13 -350 +240   -5   +30  +20  -250 +240;
+= 29 4 13 -400 +240   +5   +30  +20  -300 +240;
+
+
+
+Blocs pour aller vers l'objectif du perso d'id 1
+= 31 1  9    0 +370   +0   +25  +10;
+= 32 1  9 +100 +400   +0   +25  +10;
+= 33 1  9 +150 +430   +0   +25  +10;
+= 34 1  9 +250 +460   +0   +25  +10;
+= 35 1  9 +300 +490   +0   +25  +10;
+= 36 1  9 +400 +400   +0   +50  +10;
+= 37 1  9 -700 +340   +0   +25  +10;
+= 38 1  9 -750 +340   +0   +25  +10;
+
+Décors
+=  3 1  9  -800 -200  -3  +450 +1000; bordure gauche
+=  4 1  9  +500 -200  -3  +800 +1000; bordure droite
+=  5 0  7 -1000  -50  -2 +3000 +130; Fumée
+=  6 1  9 -1000 -700  +0 +1500 +700; Sol
+=  7 0 14  -500  -50  +5 +1280 +272; Terre violette
+=  8 0  6  -300   +0 +17 +1280 +800; Ciel étoilé
+=  9 0 10   +50 +250 +13  +275 +200; Planête bleue
+= 10 0 11  -400 +100 +10  +550 +400; Galaxie
+
+
+
+

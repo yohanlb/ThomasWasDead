@@ -1,0 +1,101 @@
+%!Adobe-FontList 1.14
+%Locale:0x40c
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Adventure
+FamilyName:Adventure
+StyleName:Regular
+FullName:Adventure
+MenuName:Adventure
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Yohan\Desktop\Rapport\RapportThomasWasDead\Document fonts\Adventure.otf
+DataFormat:sfntData
+FileLength:33460
+FileModTime:1404121554
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AppleGaramond-Bold
+FamilyName:Apple Garamond
+StyleName:Bold
+FullName:Apple Garamond Bold
+MenuName:Apple Garamond
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Yohan\Desktop\Rapport\RapportThomasWasDead\Document fonts\AppleGaramond-Bold_0.ttf
+DataFormat:sfntData
+FileLength:47264
+FileModTime:954141088
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AppleGaramondLight
+FamilyName:Apple Garamond Light
+StyleName:Regular
+FullName:Apple Garamond Light
+MenuName:Apple Garamond Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Yohan\Desktop\Rapport\RapportThomasWasDead\Document fonts\AppleGaramond-Light.ttf
+DataFormat:sfntData
+FileLength:47824
+FileModTime:954141720
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Yohan\Desktop\Rapport\RapportThomasWasDead\Document fonts\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:218640
+FileModTime:1361531780
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PulpFictionM54
+FamilyName:Pulp Fiction M54
+StyleName:Regular
+FullName:Pulp Fiction M54
+MenuName:Pulp Fiction M54
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Yohan\Desktop\Rapport\RapportThomasWasDead\Document fonts\Pulp Fiction M54.ttf
+DataFormat:sfntData
+FileLength:8008
+FileModTime:1297095482
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+

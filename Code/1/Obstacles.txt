@@ -1,0 +1,57 @@
+Les caractéristiquiques des obstacles sont à écrire entre un signe égal et un pint virgule.
+Il faut suivre l'orde de la fonction :
+	Obstacle * createObstacle(int id, int type, int x, int y, int width, int height);
+Ne pas oublier de vérifier la variable : NB_OBSTACLES
+
+/int id, int type, int texture, float x, float y, float z, float xFin, float yFin, int width, int height/
+
+TYPE
+0 :objet traversable, 1: obstacle, 2 : personnage, 3 : objectif, 4 : ennemis , 5:portes
+/Dessiner d'abord Les obstacles de type 1 , de type 4, puis de type 0/
+
+
+id type tex x y z n width height *xFin yFin*
+
+= 6  0 7  -1000 -155  -5 3000 500; l'herbe premier plan
+= 15 0 7  -1200 -180  -7 3000 500; l'herbe premier plan2
+= 29 0 7  -800  -240  -12 3000 600; l'herbe premier plan3
+= 12 1 0  -1000 -330  +0 3000 200; bord du bas noir
+= 3  1 8  -400  -1000 +0 1500 1000; le sol
+= 9  1 10 -400  +0    +0 230  100; maison 1
+= 23 0 16 -1000 +100  +0 80  54 +2000 +100; corbeau
+
+= 10 1 9  +500  +0   +0 70   35; barriere 2
+= 13 4 11  530  -20  +0 20   26  530 30; moustache 1
+= 11 1 9  +600  +0   +0 210  105; barriere 3
+= 7  0 9  -100  -15  +5 50   30; barriere 1
+= 7  0 9  -150  -15  +5 50   30; barriere 1
+= 7  0 9  -050  -15  +5 50   30; barriere 1
+= 20 0 9  +200  -70  -10 100  60; barriere 4 
+= 21 0 9  +300  -70  -10 100  60; barriere 4 
+
+= 4  0 21  -500  -70   +14 1280 272; l'herbe en background
+= 26 0 19 -500  -60   +12 1280 272 -300 -60; brume
+= 28 0 21  -400  -110  +9 1280 272; l'herbe en background 2
+= 5  0 6  -500  +30   +18 1280 310; le ciel
+= 24 0 14 -500  +40   +9  350 200 800 40; nuage 1
+= 25 0 15 -100  +100  +16 350 200 800 100; nuage 2
+
+
+
+= 14 0 12 -000  -35   -6  400 200; arbre 1
+= 16 0 12 -200  +65   +14 50 25; arbre 2 (background)
+= 17 0 12 -130  +68   +14 50 25; arbre 3 (background)
+= 18 0 12 -000  +70   +14 50 25; arbre 4 (background)
+= 19 0 12 +100  +75   +14 50 25; arbre 5 (background)
+= 30 0 17 -500  -150  -10  600 600; arbre 6 
+= 31 0 17 100  -30  +5  300 300; arbre 7
+= 32 0 17 920  -10   -4  200 200; arbre 8 bordure droite
+
+= 33 1 20  930  0   -4  1000 1000; bordure invisible doite
+= 34 1 20 -180  0   +0  10 1000; bordure invisible gauche
+
+= 27 0 18 +200  +45   +16 100 80; castle 1
+
+
+*attribut à ne rajouter que pour les obstacles de type 6 qui se déplacent en continue
+

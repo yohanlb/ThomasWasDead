@@ -1,0 +1,11 @@
+Les caractéristiquiques du perso sont à écrire entre un signe égal et un pint virgule.
+Il faut suivre l'orde de la fonction :
+Personnage * createPersonnages(int id, float x, float y, int width, int height, int color, int jumpPower);
+
+Ne pas oublier de vérifier la variable : NB_PERSONNAGES
+
+int id, float x, float y,float xfin, float yfin, int width, int height, int texture, int jumpPower
+
+= 0 130 300  300 0 10 40 3 350;
+= 1 140 300  410 410 10 60 3 400;
+= 2 150 300  -310 280 10 30 3 250;

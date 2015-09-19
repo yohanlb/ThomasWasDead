@@ -1,0 +1,45 @@
+Les caractéristiquiques des obstacles sont à écrire entre un signe égal et un pint virgule.
+Il faut suivre l'orde de la fonction :
+	Obstacle * createObstacle(int id, int type, int x, int y, int width, int height);
+Ne pas oublier de vérifier la variable : NB_OBSTACLES
+
+/int id, int type, int texture, float x, float y, float z, float xFin, float yFin, int width, int height/
+
+TYPE
+0 :objet traversable, 1: obstacle, 2 : personnage, 3 : objectif, 4 : ennemis , 5:portes
+/Dessiner d'abord Les obstacles de type 1 , de type 4, puis de type 0/
+
+
+id type tex x y z n width height *xFin yFin*
+
+= 4  0 20 -600 -400 17 1200 825; background
+
+
+= 5  0 18 -600 -250 5 1200 825; cailloux
+= 6  0 19 -700 -700 0 1400 500	-700 -200; la lave
+= 7  4 00 -600 -485 1 1200 100	-600 +015; l'ennemi qui correspond à la lave
+
+
+= 8  1 06 -1150 -400  0 750 750; bordure gauche
+= 9  1 06 +350  -400  0 750 750; bordure droite
+= 10 1 06 -400  -1000  0 750 750; bordure bas
+
+= 14 1 06 +180 -250 0  50 20; droite
+= 15 1 06 +220 -250 0 130 80;
+= 16 1 06 +100 -120 0 100 10;
+= 17 1 06 +250 -080 0 100 10;
+
+= 18 1 06 -300 -080 0 300 10; grande barre du milieu
+
+= 11 1 06 -200 -020 0 80 30;
+= 12 1 06 -200 +050 0 80 30; 
+= 13 1 06 -300 +010 0 80 30; 
+
+= 19 1 06 -100 +130 0 300 10; tunnel bas
+= 20 1 06 -100 +155 0 300 10; tunnel haut
+
+= 21 1 06 +320 +100 0 050 10; droite
+
+
+*attribut à ne rajouter que pour les obstacles de type 6 qui se déplacent en continue
+

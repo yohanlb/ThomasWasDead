@@ -1,0 +1,78 @@
+Les caractéristiquiques des obstacles sont à écrire entre un signe égal et un point virgule.
+Il faut suivre l'orde de la fonction :
+	Obstacle * createObstacle(int id, int type, int x, int y, int width, int height);
+Ne pas oublier de vérifier la variable : NB_OBSTACLES
+
+TYPE
+0 :objet traversable, 1: obstacle, 2 : personnage, 3 : objectif, 4 : ennemis , 5:portes
+
+id type tex x y z n width height *xFin yFin*
+
+Décors cimetière
+=  3 1  0  -800 -1000  +0 +2000 +1000; le sol
+=  4 0  6    +0   -40  +2 +1000  +130; Fumée
+=  5 0  8    +0   -60 -12 +1200  +130; Fumée
+
+= 50 0 16    +0   -70 +8  +512  +650; ciel derrière le cimetière 
+=  6 0 19    +0   -70 +5  +650  +650; cimetière background 
+= 51 0 18    +0   -70 +7  +512  +650; lune
+=  7 0 11    +0  +200 +8  +512  +287; ciel étoilé 
+=  8 0  7    +0   -25 -10  +512  +525; tombes premier plan
+=  9 0  7  -312   -25  -5  +512  +525; tombes premier plan gauche
+= 10 0  7  +512   -25  -5  +512  +525; tombes premier plan droite
+= 11 1  0  -450  -100  +0  +470 +1000; bordure gauche
+= 12 1  0  +765   +60  +0  +900 +1000; bordure droite
+= 13 0  3  +765  -100  +0  +470  +160; bordure droite
+
+
+
+Chemin du  perso d'id 1
+= 14 1  0   +30  +300  +0   +80   +10;
+= 15 0  0   +20    +0  +0   +10 +1000;
+= 16 1  0  +100  +300  +0   +10   +40;
+= 17 1  0  +100  +330  +0  +100   +10;
+= 18 1 15  +200  +330  +0   +10  +100;
+= 19 1  0   +20   +60  +0  +170   +10;
+= 20 4  9   +50   +70  +0   +21   +28   +100  +70;
+= 21 1 15  +150   +70  +0   +10   +80; 
+
+Chemin du  perso d'id 0
+= 22 1 15  +700  +300  +0   +80   +10;
+= 23 1 15  +640  +240  +0   +70   +10;
+= 24 1 15  +580  +340  +0   +90   +10;
+= 25 1 15  +580  +210  +0  +100   +10;
+= 26 1 15  +580  +210  +0   +10  +100;
+
+Chemin du perso d'id 2
+= 27 1 15  +390  +170  +0   +50   +10;
+= 28 1 15  +450  +185  +0   +100   +10;
+= 29 4  9  +350  +140  +3   +21   +28  +450 +140;
+= 30 4  9  +450  +130  -3   +21   +28  +350 +130;
+= 31 4  9  +330  +140  +4   +21   +28  +410 +140;
+= 32 4  9  +440  +120  -4   +21   +28  +450 +120;
+= 33 4  9  +380  +100  +4   +21   +28  +420 +100;
+= 34 4  9  +420  +110  -2   +21   +28  +380 +110;
+= 35 4  9  +360   +80  +4   +21   +28  +410  +80;
+= 36 4  9  +400  +100  -1   +21   +28  +320 +100;
+= 37 4  9  +380   +64  -2   +21   +28  +330  +64;
+= 38 4  9  +400   +64  +2   +21   +28  +380  +64;
+= 39 4  9  +400   +74  -2   +21   +28  +420  +74;
+= 40 4  9  +440   +64  +2   +21   +28  +420  +64;
+= 41 4  9  +360  +160  +0   +21   +28  +380 +160;
+= 42 4  9  +450  +160  +0   +21   +28  +430 +160;
+
+Caverne
+= 43 1  0 +1200 -1000  +0  +200   +10; sol 1
+= 44 1  0 +1200 -1100  +0  +700   +10; sol 2 
+= 45 1  0 +1780 -1100  +0   +10  +500; bordure droite 
+= 46 1  0 +1190 -1100  +0   +10  +200; bordure gauche
+= 47 0 12 +1100 -1100  +2  +512  +354; image de caverne fond
+= 48 0 13 +1500 -1100  -2  +512  +354; image de caverne stalactites
+= 49 0 14 +1200 -1100  -0  +512  +354; image de caverne sol
+
+
+
+*attribut à ne rajouter que pour les obstacles de type 6 qui se déplacent en continue
+
+
+

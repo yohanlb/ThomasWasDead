@@ -1,0 +1,55 @@
+Les caractéristiquiques des obstacles sont à écrire entre un signe égal et un pint virgule.
+Il faut suivre l'orde de la fonction :
+	Obstacle * createObstacle(int id, int type, int x, int y, int width, int height);
+Ne pas oublier de vérifier la variable : NB_OBSTACLES
+
+/int id, int type, int texture, float x, float y, float z, float xFin, float yFin, int width, int height/
+
+TYPE
+0 :objet traversable, 1: obstacle, 2 : personnage, 3 : objectif, 4 : ennemis , 5:portes
+/Dessiner d'abord Les obstacles de type 1 , de type 4, puis de type 0/
+
+
+id type tex x y z n width height *xFin yFin*
+
+
+= 1  1 6 -500 -70 25 1000 10; sol invisible
+= 17 1 6 -500 -40 00 10 1000; mur invisible gauche
+= 18 1 6 +500 -40 00 10 1000; mur invisible gauche
+
+
+
+
+= 9   0  13 -165 -20 0 70 35; nuage 1
+= 13  0  21 -138 75 0 20 15; chiffre 1
+= 101 5   8 -145 0 0 30 75; porte 1
+
+= 11  0  13 +110 -20 0 70 35; nuage 4
+= 14  0  24 +135 75 0 20 15; chiffre 4
+= 104 5   8 +130 0 0 30 75; porte 4
+
+= 3  0  13 -80 35 5 60 30; nuage 2
+= 15  0  22 -55 105 5 20 15; chiffre 2
+= 8  1  5  -70 45 5 40 10; support invisible 2
+= 102 5 8 -55 55 5 20 50; porte 2
+
+= 6   0  13 +30 35 3 60 30; nuage 3
+= 16  0  23 +50 105 3 20 15; chiffre 3
+= 7   1  5  +40 45 3 40 10; support invisible 3
+= 103 5  8  +50 55 3 20 50; porte 3
+
+
+= 12  0  13 +320 -40 -5 60 30; nuage 5
+= 12  0  20 +250 -00 -5 60 30; texte "reset->"
+= 105 5 8 +340 -30 -5 20 50; porte 5 reset
+
+
+
+= 4 0 8 -500 -500 10 1000 1200; background
+
+
+
+*attribut à ne rajouter que pour les obstacles de type 6 qui se déplacent en continue
+
+
+
